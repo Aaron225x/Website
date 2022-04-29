@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // вызываем функцию countdownTimer каждую секунду
     timerId = setInterval(countdownTimer, 1000);
   });
-/*  $(function () {
+  $(function () {
 $(".header__btn").on("click", function () {
 $(this).toggleClass("header__btn-active"),
 $(".header__menu").toggleClass("header__menu-active");
@@ -48,4 +48,4 @@ $(".header__menu").toggleClass("header__menu-active");
 $(".header__menu-link").on("click", function () {
 $(".header__menu").removeClass("header__menu-active");
 });
-});*/
+});
