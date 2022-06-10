@@ -12,7 +12,7 @@
     //от кого письмо
     $mail->setFrom('info@fls.guru', 'Фрил')
     //Кому отпрвить
-    $mail->addAddress('batskih.kirill@yandex.ru');
+    $mail->addAddress('batskih.kirill@yandex.ru'); //
     //Тема письма
     $mail->substr = 'Привет! Это "Фрилансер по жизни"';
 
